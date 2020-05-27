@@ -3,14 +3,14 @@ import { StyleSheet, View} from 'react-native';
 import Login from './Logincomp';
 import Carousel from './Carouselcomp';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-
+import Otpscreen from './Otpcomp';
 
 class Loginscreen extends Component {
     render() {
         return (
 	    <View style={styles.container}>
 		    <Carousel/>
-			<Login/>
+			<Otpscreen/>
 		</View>
         );
     }
